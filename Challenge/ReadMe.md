@@ -2,7 +2,7 @@
 Data Bootcamp Module 3: PyPoll With Python
 ## Overview of Project
 
-### The purpose of this project is to write a code to audit an election in the counties of Jefferson, Denver and Arapahoe and make sure that the results are correct. The used Dataset contains all the votes received by 3 candidates in those counties (according to the Dataset there are no Null or Blank votes). With our code, we are able to present the following results:**
+### The purpose of this project is to write a code to audit an election in the counties of Jefferson, Denver and Arapahoe and make sure that the results are correct. The used Dataset contains all the votes received by 3 candidates in those counties (according to the Dataset there are no Null or Blank votes). With our code, we are able to present the following results:
 * I. Number of votes casted
 * II. List of candidates who received votes
 * III. Number of votes that each candidate received
