@@ -2,12 +2,12 @@
 Data Bootcamp Module 3: PyPoll With Python
 ## Overview of Project
 
-### The purpose of this project is to write a code to audit an election in the counties of Jefferson, Denver and Arapahoe and make sure that the results are correct. The used Dataset contains all the votes recieved by 3 candidates in those counties (according to the Dataset there are no Null or Blank votes). With oour code, we are able to present the following results:
-* 1. Number of votes casted
-* 2. List of candidates who recieved votes
-* 3. Number of votes that each candidate recieved
-* 4. Percentage of votes each candidate obtained
-* 5. The winner of the election based on popular vote.
+### The purpose of this project is to write a code to audit an election in the counties of Jefferson, Denver and Arapahoe and make sure that the results are correct. The used Dataset contains all the votes received by 3 candidates in those counties (according to the Dataset there are no Null or Blank votes). With our code, we are able to present the following results:**
+* I. Number of votes casted
+* II. List of candidates who received votes
+* III. Number of votes that each candidate received
+* IV. Percentage of votes each candidate obtained
+* V. The winner of the election based on popular vote.
 
 
 ## Resoruces
@@ -40,8 +40,10 @@ The election was won by Diana Degette with 272,892 votes on her favor, which rep
 
 ## Election-Audit Summary
 
-- The script is written to work with any election data that follows the same format as the election_results.csv used (Ballot Id, County and Candidate). The scrit can be modified to print more results about this elections. Results such as, candidate outcome on each county or group of two counties.
+- The script is written to work with any election data that follows the same format as the election_results.csv used (Ballot Id, County and Candidate). The script can be modified to print more results about these elections. Results such as, candidate outcome on each county or group of two counties.
 
-**Also, the script can be modified for other elections that have different data structures. Examples are as follows:
+**Also, the script can be modified for other elections that have different data structures. Examples are as follows:**
 
-- 
+- Elections for city/state/country position (such as senator or president) where you can group the information by county, city and state. For this analysis the code should be modified to contain more dictionaries with all the counties that belong to one city and all the cities that belong to one state. Then one gets and group the results to have a very delicate analysis of the elections.
+
+- Elections such as the US presidential election where the candidate that wins the popular vote, does not necessarily wins the election (because each state represents a certain number of electors from the electoral college). One can introduce the data of how many electors does each state give and get the outcome of how many electoral votes each of the candidates received.
